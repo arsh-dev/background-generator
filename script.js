@@ -8,6 +8,7 @@ function setGradient() {
 	"linear-gradient(to right, "
 	+ color1.value + ", " + color2.value + ")";
 	
+	document.getElementById("h22").innerHTML = "CSS Code for current Background";
 	css.textContent = body.style.background + ";";
 }
 
